@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/CSS/styles.css">
+
+</head>
+<body>
+    <header  class="titulo  py-3 text-center bg-dark">
+      Blackjack
+    </header>
+
+    <div class="row mt-2">
+      <div class="col mt-3 text-center d-flex  align-items-center justify-content-center">
+        <button id="btnNuevo" class="btn btn-danger  m-1">Nuevo Juego</button>
+        <button id="btnPedir" class="btn btn-primary m-1">Pedir Carta</button>
+        <button id="btnDetener" class="btn btn-primary m-1">Detener</button>
+      </div>
+
+    </div>
+    <div class="container row mx-2 mx-sm-5">
+      <div class="col">
+        <h1>Jugador 1 - <small>0</small></h1>
+        <div id="jugador-cartas">
+           <!-- <img class="img-fluid carta" src="/assets/cartas/cartas/QS.png" alt=""> -->
+        </div>
+
+      </div>
+    </div>
+    <div class="container row mt-4 mx-2 mx-sm-5">
+      <div class="col">
+        <h1>Computadora - <small>0</small></h1>
+        <div id="computadora-cartas">
+           <!-- <img class="img-fluid carta" src="/assets/cartas/cartas/3C.png" alt=""> -->
+        </div>
+
+      </div>
+    </div>
+    <script src="/assets/JS/underscore.js"></script>
+    <script src="/assets/JS/app.js"></script>
+</body>
+</html>

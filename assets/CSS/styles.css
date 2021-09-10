@@ -1,0 +1,49 @@
+body{
+  background-color: #2f4f30;
+  color: white;
+}
+.titulo{
+  font-weight: 700;
+  font-size: 25px;
+}
+.btn{
+  font-weight: 400;
+  width: 100px;
+  font-size: 10px;
+
+}
+@media (min-width: 756px) {
+     .btn{
+        font-weight: 500;
+        width: 135px;
+          font-size: 18px;
+     }
+}
+.carta{
+  width: 100px;
+  position: relative;
+  left: 100px;
+  margin-left: -75px;
+}
+@media (min-width: 756px) {
+     .carta{
+         width: 170px;
+     }
+}
+
+#computadora-cartas, #jugador-cartas{
+   height: 150px;
+}
+@media (min-width: 756px) {
+     #computadora-cartas, #jugador-cartas{
+      height: 260px;
+     }
+}
+h1{
+  font-size: 20px;
+}
+@media (min-width: 756px) {
+     h1{
+       font-size: 30px;
+     }
+}
